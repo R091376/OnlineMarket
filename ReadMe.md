@@ -38,6 +38,17 @@ This file contains the work that I have done..
 	    </dependency>
 	    
 	did a bit research, springfox not yet supported spring-boot version 3.0. so not used spring-fox
+	
+	the url will be access here 
+	http://localhost:8080/swagger-ui/index.html#/
 
 11. Added JPA Repositories
 12. Created user controller and wrote Junit tests to test them
+13. Added support for postgressql with below properties
+		spring.datasource.url=jdbc:postgresql://localhost:5432/postgres
+		spring.datasource.username=postgres
+		spring.datasource.password=admin
+14. Added unique contraints for username in user table and product name in product table
+14. Created CRUD functionalites for User entity in user controller
+15. added validations support
+16. added globalexceptionhandler class to handle exceptions in global level

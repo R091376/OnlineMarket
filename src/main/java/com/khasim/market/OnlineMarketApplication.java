@@ -13,7 +13,7 @@ public class OnlineMarketApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		System.out.println("Executing this method");
+		System.out.println("Executing command line args method");
 	}
 
 }
